@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header part */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 1em 1em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 1em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* hero part */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    background-color: #1f2937;
+}
+
+.hero .first-div {
+    width: 450px;
+    margin: 5em 2.5em;
+}
+
+.hero .second-div {
+    width: 450px;
+    margin-top: 1em;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-left: 1.2em;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 3.5em;
+}
+
+.hero .first-div button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 3px 20px;
+    cursor: pointer;
+    color: white;
+    margin-left: 4em;
+    border: none;
+}
+
+.hero .second-div img {
+    width: 250px;
+    height: 200px;
+}
+
+
+/* information section */
+
+.information {
+    margin-top: 1.6em;
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.information .container {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+    gap: 25px;
+}
+
+.information .container p,
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.information .container img {
+    border-radius: 10px;
+    border: 3px solid #667b9e;
+}
+
+.information .container p {
+    text-align: center;
+}
+
+
+/* quotes section */
+
+.quotes {
+    background-color: #E5E7EB;
+    padding: 5.5em;
+}
+
+.quotes p {
+    text-align: center;
+}
+
+.quotes b {
+    margin-top: 1em;
+    display: block;
+    text-align: right;
+}
+
+
+/* footer-container */
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 1.5em;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.call-to-action .second button {
+    cursor: pointer;
+    border: 1.7px solid white;
+    background-color: #3882F6;
+    padding: 0 .5em;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/* copy-right */
+
+.copy-right {
+    padding: 1.5em;
+    text-align: center;
+    background-color: #1f2937;
+}
